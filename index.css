@@ -5,7 +5,7 @@ html, body, #root {
 
 .wrapper {
   margin: 50px;
-  width: 800px;
+  min-width: 800px;
 }
 
 h1 {
@@ -26,4 +26,5 @@ h1 {
   text-align: center;
   line-height: 70px;
   background-color: #999;
+  flex: 1;
 }

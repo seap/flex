@@ -122,12 +122,10 @@ class App extends Component {
     const { flexDirection, flexWrap, justifyContent, alignItems, alignContent } = getFieldsValue()
     return (
       <div className="wrapper">
+        <h1>Box Setting</h1>
+        {this.renderBoxController()}
         <h1>Item Setting</h1>
         {this.renderItemSetting()}
-        <h1>Flex Demo</h1>
-        <div>
-        {this.renderBoxController()}
-        </div>
         <div className="box" style={{flexDirection, flexWrap, justifyContent, alignItems, alignContent}}>
           {this.renderItems()}
         </div>
