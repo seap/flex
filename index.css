@@ -1,0 +1,29 @@
+
+html, body, #root {
+  height: 100%;
+}
+
+.wrapper {
+  margin: 50px;
+  width: 800px;
+}
+
+h1 {
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+}
+
+.box {
+  border: 1px solid #ddd;
+  padding: 5px;
+  display: flex;
+}
+
+.item {
+  /*width: 100px;
+  height: 70px;*/
+  margin: 5px;
+  text-align: center;
+  line-height: 70px;
+  background-color: #999;
+}
